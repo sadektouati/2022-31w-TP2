@@ -25,6 +25,13 @@
 
             ));
             ?>
+<h2>Menu epreuve</h2>
+<?php wp_nav_menu(array(
+                'menu' => 'menu accueil',
+                'container' => 'nav'
+
+            ));
+            ?>
 
 </section>
 
