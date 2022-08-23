@@ -3,14 +3,14 @@
 */
 
 
-.menu-accueil-container{
-    margin-top: 50px;
+.menu-atelier-container{
+    margin-top: 50px; 
 }
 
-.menu-accueil-container .menu{
+.menu-atelier-container .menu{
     display: flex;
     justify-content: center;
-    flex-flow: column;
+    flex-flow: column; 
     padding: 2rem;
     margin: 0;
     background-color: #967ff9;
@@ -21,7 +21,7 @@
     }
 }
 
-.menu-accueil-container .menu .menu-item {
+.menu-atelier-container .menu .menu-item {
     list-style-type: none;
     margin: 0;
     padding: 1.5rem;
@@ -38,7 +38,7 @@
         font-size: 1.2rem;
         font-weight: 700;
         font-family: arial;
-        color: #4b1b7a;
+        color: silver;
 
         hr{
             margin: 0;
@@ -54,3 +54,28 @@
     }
 }
 
+
+
+.menu-atelier-container .menu .menu-item:nth-of-type(1) {
+    background: rgb(95, 121, 238);
+}
+.menu-atelier-container .menu .menu-item:nth-of-type(2) {
+    background: rgb(255, 162, 0);
+}
+.menu-atelier-container .menu .menu-item:nth-of-type(3) {
+    background: rgb(4, 145, 115);
+}
+.menu-atelier-container .menu .menu-item:nth-of-type(4) {
+    background: rgb(174, 90, 215);
+}
+
+
+.atelier {
+    background-color: gray;
+    padding: 1rem;
+    h1{
+        color: silver !important;
+    font-size: 3.2rem;
+    }
+
+}
