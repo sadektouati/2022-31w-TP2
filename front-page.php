@@ -1,5 +1,5 @@
-<?php
-get_header(); ?>
+<?php get_header(); ?>
+
 <section class="site__main">
     <h1>Bienvenu!</h1>
     <div class="blocs__horizontaux">
@@ -22,7 +22,7 @@ get_header(); ?>
         <?php endif; ?>
     </div>
 
-    <h2>Ateliers</h2>
+    <h2>Nos pages ateliers</h2>
     <?php
     /* -------------------------------------- menu évènements */
     wp_nav_menu(array(
